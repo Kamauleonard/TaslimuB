@@ -1,0 +1,20 @@
+.homepage-container {
+  display: flex;
+  width: 100%;
+}
+
+.left-sidebar {
+  width: 10%;
+  background-color: #346ee2;
+  height: 100vh;
+}
+
+.main-section {
+  width: 90%;
+  background-color: #b1c4ea; /* or any other grayish color you prefer */
+  display: flex;
+  flex-direction: column; /* Change to column direction */
+  align-items: center; /* Align items horizontally in the center */
+  justify-content: flex-start; /* Align items to the start vertically */
+  height: 100vh;
+}
